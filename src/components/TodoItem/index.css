@@ -1,0 +1,50 @@
+.todo-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.todo-items-details-container {
+  margin-left: 12px;
+}
+
+.todo-item {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #000000;
+  margin: 0px;
+  font-weight: 500;
+  width: 100%;
+}
+@media screen and (min-width: 768px;) {
+  .todo-item {
+    font-size: 24px;
+  }
+  .delete-button {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+}
+
+.delete-button {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #ff0b37;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+  padding-left: 12px;
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: #ff0b37;
+  margin-left: 15px;
+  border-width: 1px;
+}
